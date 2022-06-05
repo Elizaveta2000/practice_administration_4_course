@@ -3,7 +3,7 @@ ymaps.ready().done(function (ym) {
     "map",
     {
       center: [57.8136, 28.3496],
-      zoom: 10,
+      zoom: 11,
     },
     {
       searchControlProvider: "yandex#search",
@@ -24,6 +24,7 @@ ymaps.ready().done(function (ym) {
     [[56.141558, 29.30459], 4000],
     [[56.101012, 29.058317], 4000],
     [[58.425782, 28.696556], 4000],
+    [[56.807304, 29.472125], 4000]
   ];
   for (var i = 0; i < circles.length; i++) {
     myCollection.add(new ymaps.Circle(circles[i]));
